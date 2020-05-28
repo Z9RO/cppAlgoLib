@@ -1,19 +1,19 @@
-#include"searchTree.h"
-#include<iostream>
-#include<vector>
+#include "searchTree.h"
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
+int main() {
     searchTree<int, int> st;
-    
+
     int flag, key, val;
     cin >> flag;
-    while(flag!=0){
-        switch (flag){
+    while (flag != 0) {
+        switch (flag) {
         case 1:
             // put
             cin >> key >> val;
-            st.put(key, val); 
+            st.put(key, val);
             break;
         case 2:
             // get
