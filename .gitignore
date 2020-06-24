@@ -1,2 +1,8 @@
 *.exe
+<<<<<<< HEAD
 *.doc
+=======
+a.out
+case
+.vscode
+>>>>>>> 23059fd1fe43a2623d2b3eb8d2d551d558a78c0f
